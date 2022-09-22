@@ -12,4 +12,4 @@ double Yb = Convert.ToDouble(ReadLine()!);
 
 double lenght = Math.Sqrt(Math.Pow(Xa-Xb,2)+Math.Pow(Ya-Yb,2));
 
-Write($"Длина заданного отрезка {lenght}");
+Write($"Длина заданного отрезка {lenght:f2}");
